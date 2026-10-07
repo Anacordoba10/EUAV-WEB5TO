@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta etiquetas para SEO -->
+    <meta name="description" content="Portafolio y proyecto web del alumno">
+    <title>Proyecto de [Tu Nombre]</title>
+    <!-- Fuentes de Google: Inter y Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">MiProyecto<span class="dot">.</span></h1>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+            <button id="theme-toggle" class="btn">Modo Oscuro</button>
+        </nav>
+    </header>
+
+    <main class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="badge">Nuevo Proyecto</span>
+            <h2 class="hero-title">¡Hola! Soy <span class="highlight">[Tu Nombre]</span></h2>
+            <p class="hero-subtitle">Estudiante de 5to año construyendo la web del futuro. Explora mi portafolio para ver lo que he creado.</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Empezar a explorar</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="glass-card">
+                <h3>Mis Estadísticas</h3>
+                <p>Proyectos completados: <strong id="contador-proyectos">0</strong></p>
+                <p>Líneas de código: <strong>+1000</strong></p>
+                <p>Tazas de café: <strong>∞</strong></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
